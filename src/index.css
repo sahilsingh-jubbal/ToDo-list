@@ -1,0 +1,950 @@
+/* for images and transitions for images */
+/* .heading{
+  text-align: center;
+  font-weight: bold;
+  color: blueviolet;
+  text-transform: capitalize;
+  text-shadow: 5px 5px 5px violet;
+  margin-top: 30px;
+  margin-bottom: 45px;
+
+}
+.imgdiv{
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+  justify-content: center;
+  position: relative;
+}
+
+.imgdiv img{
+  height: 150px;
+  width:200px;
+}
+
+
+.heartBeat{
+  transition: transform 2s;
+}
+
+.heartBeat:hover{
+  transform: scale(2,2);
+}
+
+/* .heartBeat{
+  width: 150px;
+  height: 100px;
+  margin-top: 50px;
+  position: absolute;
+  left: 0;
+  animation-name: wow;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes wow{
+  from{left: 0}
+  to{left: 80%}
+} */
+
+
+/* .rotate{
+    transition: transform 2s;
+}
+
+.rotate:hover{
+  transform: rotate(360deg);
+} */ 
+
+
+/* challange 3
+body{
+  background-color: deepskyblue ;
+
+}
+
+.heading{
+  background-color: khaki;
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  width: 380px;
+  border-radius: 20px;
+  margin-left: 435px;
+}
+
+.heading h1{
+  color: crimson;
+  
+} */
+
+
+
+/* netfliex cards */
+/* body{
+  background-color: #d2dbdd;
+}
+
+.heading{
+  background-color: white;
+  margin-top: -20px;
+  margin-left: -10px;
+  margin-right: -10px;
+  height: 60px;
+  
+}
+
+.heading h1{
+color: gray;
+text-align: center;
+font-size: 30px;
+padding-top: 20px;  
+}
+.cards{
+  
+  width: 100%;
+  
+}
+
+.card{
+  background-color: wheat;
+  border: 1px solid black;
+  width: 200px;
+  margin-top: 50px;
+  float: left;
+  margin-left: 180px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0,1);
+  }
+
+.card:hover{
+  box-shadow: 2px 2px 2px grey;
+  transform: scale(1.05,1.05);
+  }
+
+.card img{
+  width: 200px;
+  height: 200px;
+  border-bottom: 1px solid black;
+
+}
+
+.card_content{
+  
+   margin-left: 50px;
+  
+}
+
+.card_content button{
+  margin-bottom: 5px;
+ 
+
+} */
+
+
+/* netflix images style */
+/* body{
+  background-color:#d2dbdd;
+}
+
+
+.heading{
+  width: 100%;
+  height: 60px;
+  background-color: floralwhite;
+
+}
+
+.heading h1{
+  color: gray;
+  text-align: center;
+}
+
+.card{
+  background-color: wheat;
+  border: 1px solid black;
+  margin-top: 50px;
+  width: 202px;
+  height: 300px;
+  margin-left: 150px;
+  float: left;
+  margin-bottom: 20px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0,1);
+
+}
+
+.card:hover{
+  transform: scale(1.1,1.1);
+  box-shadow: 5px 5px 5px grey;
+}
+
+.card img{
+  width: 200px;
+  height: 200px;
+}
+
+.card_content{
+  margin-left: 50px;
+}
+*/
+
+/* responsive cards */
+/* @media only screen and (max-width: 699px){
+
+  .card{
+    margin-top: 20px;
+    margin-left: 60px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0,1);
+  
+  }
+
+}  */
+
+/* slot mechine */
+/* body{
+  background-color:#d2dbdd;
+}
+.heading{
+  width: 100%;
+  height: 60px;
+  background-color: floralwhite;
+
+}
+
+.heading h1{
+  color:black;
+  text-align: center;
+  text-shadow:2px 2px 4px #000000;
+  color: white;
+
+}
+ */
+/* .heading h1 span{ */
+  /*bg color:-lavender */
+  /* background-color: gainsboro;   */
+
+/* } */
+
+
+
+/* .divSlot{
+  border: 2px solid black;
+  width: 400px;
+  margin-top: 50px;
+  margin-left: 450px;
+  height: 456px;
+   
+}
+
+.divSlot p{
+  text-align: center;
+}
+
+.div3{
+  background-color: white;
+  height:75px;
+  color: white;
+} */
+
+
+/* increment number onclick */
+/* body{
+  background-color: gainsboro;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  /* border: 1px solid black; */
+  /* margin-top: 250px;   */
+/* }
+
+.main button{
+  background-color: magenta;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+} */ 
+
+
+/* Get time */
+/* body{
+  background-color: deeppink;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  border: 1px solid black;
+  margin-top: 250px;
+  
+}
+
+.main button{
+  background-color: magenta;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  border:2px solid white ;
+}
+
+.main h1{
+  color: white;
+} */
+
+
+
+/*Events in React js */
+/* *{
+  margin: 0px;
+}
+
+.main{
+  /* border: 1px solid black;  */
+  /* width: 100%;
+  height: 100vh;
+}
+
+.main button{
+  background-color: magenta;
+  width: 200px;
+  height: 60px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  border:2px solid white ;
+  margin-top: 310px;
+  font-size: 20px;
+}
+
+.main h1{
+  color: white;
+} */ 
+
+
+/* *{
+  margin: 0px;
+  padding: 0px;
+  
+
+}
+
+.full{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: deeppink;
+}
+
+.full button{
+ margin-top: 20px;
+ width: 150px;
+ height: 35px;
+ background-color: magenta;
+ border-radius: 5px;
+border:2px solid white ;
+/* color: white; */
+/* cursor: pointer;
+text-transform: uppercase;
+}
+
+.full input[type]{
+  height: 30px;
+  width: 25%;
+  text-align: center;
+  background-color: gainsboro;
+font-family: 'Barlow Condensed', sans-serif;  
+}
+
+.full h1{
+  color: white;
+  margin-bottom: 10px;
+  font-family: 'Titillium Web', sans-serif;
+
+}
+
+.text2{
+  margin-top: 10px;
+} */
+
+
+/* ToDo List */
+/* *{
+  padding:0px;
+  margin: 0px;
+}
+.ToDo{
+  background-color: rgb(171, 95, 241);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list{  */
+  /* border: 2px solid black; */
+  /* width: 25%;
+  height: 500px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 3px 3px 3px rgb(43, 42, 42);
+
+}
+
+.list h1{
+  margin-top: 20px;
+  background-color: rgb(141, 19, 141);
+  color: white;
+  text-align: center;
+
+}
+
+.text1{ */
+  /* border: 1px solid black; */
+   /* margin-top: 45px;
+  display: flex;
+  
+}
+
+.text1 input{
+  border: none;
+  border-bottom: 3px solid rgb(141, 19, 141);
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 5px;
+  width: 75%;
+}
+
+.text1 button{
+  background-color: rgb(141, 19, 141);
+  border-radius: 50px;
+  color: white;
+  width: 47px;
+  font-size: 28px;
+  height: 46px;
+  font-weight: bold;
+}
+
+.text1 button:hover{
+  background-color: rgb(13, 175, 13);
+}
+
+.delBtn{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.delBtn button{
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  color: white;
+  background-color: rgb(141, 19, 141);
+  font-weight: bold;
+}
+
+.delBtn button:hover{
+background-color: crimson;
+}
+
+.delBtn li{
+  list-style: none;
+  font-size: 18px;
+  color: rgb(141, 19, 141);
+  margin-left: 5px;
+
+}
+
+.list ol{
+  margin-top: 50px;
+}   */
+
+
+
+/* counter */
+/* *{
+  margin:0px;
+  padding: 0px;
+}
+
+.fullscreen{
+  width: 100%;
+  height:100vh;
+  background-color: rgb(102, 224, 102);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.main{ */
+  /* border: 2px solid black; */
+  /* width: 25%;
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px rgb(43, 42, 42);
+  background-color: ghostwhite;
+}
+
+.head h1{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.btns {
+  margin-top: 85px; */
+  /* border: 2px solid black; */
+/* 
+}
+
+.btns button{
+  margin-left: 65px;
+ box-shadow: 3px 3px 3px rgb(43, 42, 42);
+  
+
+}
+
+.firstbtn:hover{
+  color:  rgb(53, 247, 15);
+}
+
+.secondbtn{
+  margin-right: 10px;
+}
+
+.secondbtn:hover{
+  color:crimson;
+} */
+
+
+
+
+/* 2nd ToDo List for matrial UI */
+*{
+  padding:0px;
+  margin: 0px;
+  font-family: "Josefin Sans", "Arial Narrow", Arial, sans-serif;
+  /* font-family: "Comfortaa", cursive; */
+
+}
+.ToDo{
+  background-color: rgb(171, 95, 241);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list{  
+  /* border: 2px solid black; */
+   width: 28%;
+  height: 600px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 3px 3px 3px rgb(43, 42, 42);
+
+}
+
+.list h1{
+  margin-top: 20px; 
+  /* background-color: rgb(141, 19, 141); */
+   color: black;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0,0.3); 
+  font-family: "Comfortaa", cursive;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+
+  
+}
+
+.text1{ 
+  /* border: 1px solid black; */
+    margin-top: 45px;
+  display: flex;
+  
+}
+
+.text1 input{
+  border: none;
+  border-bottom: 3px solid rgb(141, 19, 141);
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 5px;
+  width: 75%;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.text1 input:focus{
+  border: none !important;
+  border-bottom: 3px solid rgb(141, 19, 141) !important;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 5px;
+  width: 75%;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.text1 button{
+  width: 50px;
+  height: 55px; 
+  border: none; 
+  background-color: #16a085 ;
+  color: white ;
+  font-size: 28px;  
+  font-weight: bold; 
+  padding-top: 2px;
+   cursor: pointer; 
+  box-shadow: 5px 5px 15px -5px rgb(26, 23, 23);
+  border-radius: 50% ;
+  padding: -10px;
+} 
+ 
+.text1 button:hover{
+  background-color:white;
+  color: #16a085;
+}
+
+.delBtn{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.delBtn button{
+  border: none;
+  box-shadow: 5px 5px 15px -5px rgb(26, 23, 23);
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  color: white;
+  background-color: rgb(141, 19, 141);
+  
+}
+
+.delBtn button:hover{
+background-color: white;
+color: crimson;
+}
+
+.delBtn li{
+  list-style: none;
+  font-size: 18px;
+  color: rgb(141, 19, 141);
+  margin-left: 5px;
+  text-transform: capitalize;
+
+}
+
+.list ol{
+  margin-top: 50px;
+}  
+
+.style{
+  box-shadow: 5px 5px 5px black;
+}
+
+
+/* /////////responsive ///////// */
+@media only screen and (max-width: 699px){
+
+  .list{  
+    /* border: 2px solid black; */
+    width: 75%;
+  
+  }
+  .progress{
+    height: 22px !important;
+    width: 22px !important;
+  
+  }
+
+}
+
+
+
+/* google keep app */
+/* .header{
+  background-color: orange;
+  width: 100%;
+  height: 70px;
+  color: white;
+  
+}
+
+.header h1{
+  margin-left: 30px;
+  padding-top:10px ;
+  font-family: "Comfortaa", cursive;
+
+}
+
+.main_note{  */
+  /* border: 1px solid black; */
+   /* margin-top: 30px;
+  width: 30%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+ 
+  margin-left: 550px;
+  box-shadow: 3px 3px 3px rgb(43, 42, 42);
+
+}
+
+.main_note input[type='text']{
+  height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+  border: none;
+}
+
+.main_note textarea{
+  height: 140px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+  border: none;
+}
+
+.newbtn{
+  width: 50px;
+  height: 55px; 
+  border: none; 
+  font-size: 28px;  
+  font-weight: bold; 
+  padding-top: 2px;
+   cursor: pointer; 
+  box-shadow: 5px 5px 15px -5px rgb(26, 23, 23);
+  border-radius: 50% !important;
+  padding: -10px;
+  margin-left: 890px !important;
+  margin-top: -50px !important;
+
+  background-color:  orange !important;
+  color: white !important;
+
+}
+
+.newbtn:hover{
+  background-color: white !important;
+  color: orange !important;
+}
+
+
+.sub_notes{  */
+  /* border: 1px solid black; */
+   /* margin-top: 30px;
+  width: 15%;
+  height: 100px;
+  float:left;
+  margin-left: 20px;
+  box-shadow: 3px 3px 3px rgb(43, 42, 42);
+  padding-left: 10px;
+}
+
+
+.sub_notes p{
+  margin-top: 20px;
+}
+
+.delbtn{
+  width: 35px !important;
+  height: 35px; 
+  border: none; 
+  font-size: 28px;  
+  font-weight: bold; 
+  padding-top: 2px;
+  cursor: pointer; 
+  box-shadow: 5px 5px 15px -5px rgb(26, 23, 23);
+  border-radius: 50% !important;
+  padding: -10px;
+  margin-left: 175px !important;
+  margin-top: -10px !important;
+  background-color:  orange !important;
+  color: white !important;
+
+
+}
+
+.delbtn:hover{
+  background-color:  white !important;
+  color: crimson !important;
+
+}
+
+.footer1{
+  text-align: center;
+  margin-top: 400px;
+  background-color: rgb(27, 25, 25);
+  color: white;
+  font-size: 18px;
+}
+
+
+.progress{ */
+  /* border: 1px solid violet; */
+  /* margin-bottom: 20px;
+  margin-left: 430px;
+  width: 40px;
+  height: auto;
+
+}
+
+.replay{
+  margin-bottom: 50px;
+  margin-left: 430px;
+  
+}
+
+
+.proMan{
+  height: 22px !important;
+  width: 22px !important; */
+  /* margin-bottom: 200px; */
+/* }
+
+.outer{ */
+  /* border: 2px solid black; */
+  /* width:100%;
+  height: 600px; */
+/* } */
+
+
+/* awesome SGPA app */
+/* *{
+  padding:0px;
+  margin: 0px; */
+   /* font-family: "Josefin Sans", "Arial Narrow", Arial, sans-serif;  */
+   
+   /* font-family: "Comfortaa", cursive;
+}
+.ToDo{
+  background-color: rgb(171, 95, 241);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list{   */
+  /* border: 2px solid black; */
+  /* margin-left: -300px;
+  width: 50%;
+  height: 400px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 3px 3px 3px rgb(43, 42, 42);
+  
+ 
+
+}
+
+ .theory{
+  width: 50%;
+  float: left;
+  margin-top: 40px;
+  margin-left: 20px; */
+  /* border: 2px solid black; */
+
+/* }
+
+input[type='text']{
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 70px;
+  height: 35px;
+  font-size: 20px;
+
+}
+
+input[type='text']:focus{
+border: 2px solid rgb(52, 231, 16);  
+}
+
+select{
+  height: 30px;
+  width: 90px;
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 20px;
+  border-radius: 50px;
+ 
+
+}
+
+ label{
+  margin-left: 20px;
+  margin-right: -10px;
+  font-size: 20px;
+}
+
+
+
+.pratical{
+  width: 50%;
+  float: left;
+  margin-left: 400px;
+  margin-top: -215px;
+
+} 
+ 
+.showBtn{ 
+  margin-top: 350px; 
+  margin-left: -500px;
+  margin-bottom: 10px;
+  width: 190px;
+  height: 45px;
+  background-color: crimson;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 5px 5px 15px -5px rgb(26, 23, 23);
+
+}  
+
+
+.showBtn:hover{
+  background-color: white;
+  color: crimson;
+
+
+}
+
+.mainSelect{
+  width: auto;
+  float: right;
+  margin-right: 20px;
+  
+}
+
+h2{
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  font-weight: lighter;
+
+}
+
+.mainBranch{
+  width: auto;
+  float: right;
+}
+ */
