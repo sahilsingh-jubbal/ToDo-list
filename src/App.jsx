@@ -1,124 +1,124 @@
 // toDo list second using matrial Ui
-// import React, { useState } from 'react';
-// import './index.css';
-// import Todo from './ToDo';
-// import AddIcon from '@material-ui/icons/Add';
-// import Button from '@material-ui/core/Button';
-// // import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-// import ArchiveIcon from '@material-ui/icons/Archive';
-// import AlarmIcon from '@material-ui/icons/Alarm';
-// import CircularProgress from '@material-ui/core/CircularProgress';
+import React, { useState } from 'react';
+import './index.css';
+import Todo from './ToDo';
+import AddIcon from '@material-ui/icons/Add';
+import Button from '@material-ui/core/Button';
+// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import ArchiveIcon from '@material-ui/icons/Archive';
+import AlarmIcon from '@material-ui/icons/Alarm';
+import CircularProgress from '@material-ui/core/CircularProgress';
 
-// function App(){
+function App(){
 
-//     var [Cname,Uname] = useState('');
-//     var [Cbtn,Ubtn] = useState([]);
-//     var [Csym,Usym] = useState('');
+    var [Cname,Uname] = useState('');
+    var [Cbtn,Ubtn] = useState([]);
+    var [Csym,Usym] = useState('');
 
-//     function read(eve){
-//         Uname(eve.target.value);
-//         Usym(() =>{
-//             return(
-//                 <CircularProgress color="secondary" className='progress'/>
+    function read(eve){
+        Uname(eve.target.value);
+        Usym(() =>{
+            return(
+                <CircularProgress color="secondary" className='progress'/>
 
-//             );
-//         })
-//         // document.getElementById('call');
-//     }
+            );
+        })
+        // document.getElementById('call');
+    }
 
-//     function click(){
-//         // Ubtn(Cname);
+    function click(){
+        // Ubtn(Cname);
 
-//         if(Cname=== ""){
-//           alert('Enter Item in list first');
-//         }
+        if(Cname=== ""){
+          alert('Enter Item in list first');
+        }
 
-//         else{          
-//         Ubtn((oldarray) => {
-//             return [...oldarray,Cname];
-//         });
+        else{          
+        Ubtn((oldarray) => {
+            return [...oldarray,Cname];
+        });
 
-//         Uname('');
+        Uname('');
 
-//       }
+      }
 
-//     }
-// function leave(){
-//         Usym(() =>{
-//      return('');
-//     })
+    }
+function leave(){
+        Usym(() =>{
+     return('');
+    })
  
-// }
+}
 
 
-//     function delete1(id){
+    function delete1(id){
 
-//         Ubtn((oldarray) =>{
-//            return oldarray.filter((current,index) => {
-//                 return index !==id;
-//             });
+        Ubtn((oldarray) =>{
+           return oldarray.filter((current,index) => {
+                return index !==id;
+            });
 
            
 
-//         })
+        })
 
-//     }
+    }
         
     
-//     return (
-//     <>
+    return (
+    <>
       
-//         <div className='ToDo'>
-//             <div className='list'>
-//                 <h1>ToDo List</h1>
-//                 <div className='text1'>
-//                     <input type='text' value={Cname} onChange={read} placeholder='Enter an item '/>
-//                     <span className='add'>
-//                     <Button className="newBtn"  onClick={click} onMouseEnter={leave}> <AddIcon/> </Button>
-//                     </span>
-//                 <div id='mydiv'>
-//                     <h2>{Csym}</h2>
-//                 </div>
+        <div className='ToDo'>
+            <div className='list'>
+                <h1>ToDo List</h1>
+                <div className='text1'>
+                    <input type='text' value={Cname} onChange={read} placeholder='Enter an item '/>
+                    <span className='add'>
+                    <Button className="newBtn"  onClick={click} onMouseEnter={leave}> <AddIcon/> </Button>
+                    </span>
+                <div id='mydiv'>
+                    <h2>{Csym}</h2>
+                </div>
                
-//                 </div>
+                </div>
 
 
-//                  <ol>    
-//                         {/*{Cbtn.map((val)  => {
+                 <ol>    
+                        {/*{Cbtn.map((val)  => {
                             
-//                             return(<>
-//                             <div className='delBtn'>
-//                             <li> {val}</li>
-//                             </div>
+                            return(<>
+                            <div className='delBtn'>
+                            <li> {val}</li>
+                            </div>
                             
-//                             </>);
+                            </>);
                             
-//                         })} */}
+                        })} */}
 
 
-//                         {Cbtn.map((current,index) =>{
-//                             return(<Todo 
-//                                value={current}
-//                                deleteItms={delete1}
-//                                id={index}
-//                            />   );                         
-//                         })}
-//                 </ol>
-//                 {/* <Button className='style'><ArchiveIcon/></Button>
-//                 <Button><AlarmIcon/></Button>
+                        {Cbtn.map((current,index) =>{
+                            return(<Todo 
+                               value={current}
+                               deleteItms={delete1}
+                               id={index}
+                           />   );                         
+                        })}
+                </ol>
+                {/* <Button className='style'><ArchiveIcon/></Button>
+                <Button><AlarmIcon/></Button>
                 
-//                  */}
+                 */}
                 
                
                 
                             
-//             </div>
+            </div>
 
-//         </div>
-//     </>);
-// }
+        </div>
+    </>);
+}
 
-// export default App;
+export default App;
 
 
 
@@ -176,63 +176,63 @@
 
 
 // google keep app
-import React, { useState } from 'react';
-//import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import Button from '@material-ui/core/Button';
-import AddIcon from '@material-ui/icons/Add';
-import DeleteIcon from '@material-ui/icons/Delete';
-import Header from './Header';
-import Footer from './Footer';
-import CreateNote from './CreateNote';
-import SubNote from './SubNote';
-import './index.css';
+// import React, { useState } from 'react';
+// //import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+// import Button from '@material-ui/core/Button';
+// import AddIcon from '@material-ui/icons/Add';
+// import DeleteIcon from '@material-ui/icons/Delete';
+// import Header from './Header';
+// import Footer from './Footer';
+// import CreateNote from './CreateNote';
+// import SubNote from './SubNote';
+// import './index.css';
 
 
-function App(){
+// function App(){
 
-    var [Cbtn,Ubtn] = useState([]);
+//     var [Cbtn,Ubtn] = useState([]);
 
-function show(Note){
+// function show(Note){
 
-    Ubtn((oldarray) =>{
-        return [...oldarray,Note];
-    });
+//     Ubtn((oldarray) =>{
+//         return [...oldarray,Note];
+//     });
 
-}
+// }
 
-function delete1(id){
-    Ubtn((oldarray) => {
-        return(oldarray.filter((current,index) => {
-            return id!==index;
-        }));
-    }); 
-}
+// function delete1(id){
+//     Ubtn((oldarray) => {
+//         return(oldarray.filter((current,index) => {
+//             return id!==index;
+//         }));
+//     }); 
+// }
 
-    return(<>
-            <Header/>
+//     return(<>
+//             <Header/>
 
-            <CreateNote
-                call={show}
-            />
+//             <CreateNote
+//                 call={show}
+//             />
 
            
 
-            {Cbtn.map((current,index) =>{
-                return(
-                <SubNote 
-                    id={index}
-                    title={current.title}
-                    content={current.content}
-                    deleteOne={delete1}
-                />);
-            })
-            }
-            <Footer/>
-        </>);
+//             {Cbtn.map((current,index) =>{
+//                 return(
+//                 <SubNote 
+//                     id={index}
+//                     title={current.title}
+//                     content={current.content}
+//                     deleteOne={delete1}
+//                 />);
+//             })
+//             }
+//             <Footer/>
+//         </>);
 
-}
+// }
 
-export default App;
+// export default App;
 
 
 
