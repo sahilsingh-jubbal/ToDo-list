@@ -533,11 +533,11 @@ background-color: crimson;
 
 
 /* 2nd ToDo List for matrial UI */
-*{
+/* *{
   padding:0px;
-  margin: 0px;
+  margin: 0px; */
   /* font-family: "Josefin Sans", "Arial Narrow", Arial, sans-serif; */
-  font-family: "Comfortaa", cursive;
+  /* font-family: "Comfortaa", cursive;
 
 }
 .ToDo{
@@ -549,9 +549,9 @@ background-color: crimson;
   align-items: center;
 }
 
-.list{  
+.list{   */
   /* border: 2px solid black; */
-   width: 28%;
+   /* width: 28%;
   height: 600px;
   border-radius: 15px;
   background-color: white;
@@ -560,9 +560,9 @@ background-color: crimson;
 }
 
 .list h1{
-  margin-top: 20px; 
+  margin-top: 20px;  */
   /* background-color: rgb(141, 19, 141); */
-   color: black;
+   /* color: black;
   text-align: center;
   text-shadow: 5px 5px 5px rgb(0, 0, 0,0.3); 
   font-family: "Comfortaa", cursive;
@@ -571,9 +571,9 @@ background-color: crimson;
   
 }
 
-.text1{ 
+.text1{  */
   /* border: 1px solid black; */
-    margin-top: 45px;
+    /* margin-top: 45px;
   display: flex;
   
 }
@@ -655,15 +655,15 @@ color: crimson;
   margin-left: 10px;
   margin-bottom: -1px;
   background-color: transparent;
-}
+} */
 
 
 /* /////////responsive ///////// */
- @media only screen and (max-width: 699px){
+ /* @media only screen and (max-width: 699px){
 
-  .list{   
+  .list{    */
     /* border: 2px solid black; */
-     width: 75%;
+     /* width: 75%;
   
   }
   .progress{
@@ -673,7 +673,211 @@ color: crimson;
   
   }
 
-} 
+}  */
+
+
+/* navlink in reactjs */
+/* .active_to:focus{
+  color: blueviolet;
+  border-bottom:1px solid red;
+} */
+
+
+
+/* Nav bar in React js */
+/* *{
+  margin: 0px;
+  padding: 0px;
+}
+
+.navStyle{
+  background-color: rgb(1, 1, 39);
+  width: 100%;
+  height:60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  
+}
+
+.more{ */
+  /* margin-right: 600px; */
+  /* margin-left: 20px;
+  
+  text-decoration: none;
+}
+
+#first{
+  margin-left: 700px;
+}
+
+.active_to{
+  color: rgb(44, 11, 236); */
+  /* color: white; */
+  /* border-bottom: 1px solid white; */
+
+/* }
+
+.active_to:focus{
+  color: white;
+
+} */
+
+
+
+
+
+/* nav bar without bootstrap4 added */
+/* .my{
+  text-decoration: none;
+
+}
+
+.active_to{
+  color: rgb(8, 63, 245);
+  border-bottom:1px solid red ;
+} */
+
+
+
+
+/* With adding bootsstrap 4 */
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+#first{
+  margin-left: 200px;
+}
+
+.my{
+  text-decoration: none;
+  margin-right: 200px;
+  font-size: 25px;
+  color:  rgb(8, 63, 245);
+}
+
+.active_to{
+  color: white;
+  border-bottom:1px solid red ;
+}
+
+.navStyle{
+  background-color: rgb(1, 1, 39);
+  width: 100%;
+  height:90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+#services{
+  font-family: "Comfortaa", cursive;
+  /* color: red; */
+}
+
+.searchDiv{
+  display: flex;
+  justify-content: center;
+}
+
+.searchDiv input{
+  padding-left:10px;
+  border: 1px solid black;
+  width: auto;
+  height: 35px;
+  border-radius: 5px;
+  font-family: "Comfortaa", cursive;
+  
+}
+
+.imgStyle{
+  display: flex;
+  justify-content: center;
+}
+.imgStyle img{
+  margin-top: 60px;
+  height: 400px;
+  width: 600px;
+}
+
+
+/* responsive react js website */
+
+*{
+  font-family: 'Crimson Pro', serif;
+}
+.navbar-brand{
+  font-size: 31px !important;
+}
+
+.nav-link{
+  font-size: 23px;
+ }
+
+.active_class{
+  color: black !important;
+  /* text-decoration: underline red !important; */
+  border-bottom: 1.5px solid grey;
+}
+
+#btn1{
+  border-radius: 50px !important;
+  width: 120px;
+  transition-property:background-color !important;
+  transition-duration: 0.6s !important;
+}
+
+#text1{
+  border: none;
+  border-bottom:2px solid purple;
+}
+
+#header h1{
+  margin-top: 1500px;
+}
+
+#img img{
+  margin-top: 100px;
+}
+
+#card_list{
+  width: 450px !important;
+  /* border: 1.5px solid crimson; */
+  border-radius: 10px !important;
+}
+
+#btnNew{
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 699px){
+ #home{
+    /* border: 2px solid black; */
+    margin-top: -150px !important;
+
+  }
+  #img1{
+    /* border: 2px solid black; */
+    margin-top: 30px !important;
+  }
+
+  #card_list{
+    width: 320px !important;
+    margin-left: -10px !important;
+
+  }
+}
+
+
+
 
 
 /* google keep app */
