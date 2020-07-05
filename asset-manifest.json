@@ -1,22 +1,32 @@
 {
   "files": {
-    "main.css": "/ToDo-list/static/css/main.7ca715fd.chunk.css",
-    "main.js": "/ToDo-list/static/js/main.be81adc4.chunk.js",
-    "main.js.map": "/ToDo-list/static/js/main.be81adc4.chunk.js.map",
+    "main.css": "/ToDo-list/static/css/main.d4918394.chunk.css",
+    "main.js": "/ToDo-list/static/js/main.e4a59953.chunk.js",
+    "main.js.map": "/ToDo-list/static/js/main.e4a59953.chunk.js.map",
     "runtime-main.js": "/ToDo-list/static/js/runtime-main.87e2a030.js",
     "runtime-main.js.map": "/ToDo-list/static/js/runtime-main.87e2a030.js.map",
-    "static/js/2.c0c337fe.chunk.js": "/ToDo-list/static/js/2.c0c337fe.chunk.js",
-    "static/js/2.c0c337fe.chunk.js.map": "/ToDo-list/static/js/2.c0c337fe.chunk.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/ToDo-list/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.977539fb.chunk.js": "/ToDo-list/static/js/2.977539fb.chunk.js",
+    "static/js/2.977539fb.chunk.js.map": "/ToDo-list/static/js/2.977539fb.chunk.js.map",
     "index.html": "/ToDo-list/index.html",
-    "precache-manifest.b167d27024c90b0a284a907739c5b349.js": "/ToDo-list/precache-manifest.b167d27024c90b0a284a907739c5b349.js",
+    "precache-manifest.b8b87cc694db1f028413253bddf4e600.js": "/ToDo-list/precache-manifest.b8b87cc694db1f028413253bddf4e600.js",
     "service-worker.js": "/ToDo-list/service-worker.js",
-    "static/css/main.7ca715fd.chunk.css.map": "/ToDo-list/static/css/main.7ca715fd.chunk.css.map",
-    "static/js/2.c0c337fe.chunk.js.LICENSE.txt": "/ToDo-list/static/js/2.c0c337fe.chunk.js.LICENSE.txt"
+    "static/css/2.af3c1da9.chunk.css.map": "/ToDo-list/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.d4918394.chunk.css.map": "/ToDo-list/static/css/main.d4918394.chunk.css.map",
+    "static/js/2.977539fb.chunk.js.LICENSE.txt": "/ToDo-list/static/js/2.977539fb.chunk.js.LICENSE.txt",
+    "static/media/Blue_sea.jpg": "/ToDo-list/static/media/Blue_sea.a5184b2a.jpg",
+    "static/media/Lion1.jpg": "/ToDo-list/static/media/Lion1.8f5ba5a4.jpg",
+    "static/media/Nature.jpg": "/ToDo-list/static/media/Nature.7ad6ea6f.jpg",
+    "static/media/Roads.jpg": "/ToDo-list/static/media/Roads.ef224c6a.jpg",
+    "static/media/Seafloor.jpg": "/ToDo-list/static/media/Seafloor.e642fe0f.jpg",
+    "static/media/Seas.jpg": "/ToDo-list/static/media/Seas.80ac7008.jpg",
+    "static/media/Three_man.jpg": "/ToDo-list/static/media/Three_man.1604c2d1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.87e2a030.js",
-    "static/js/2.c0c337fe.chunk.js",
-    "static/css/main.7ca715fd.chunk.css",
-    "static/js/main.be81adc4.chunk.js"
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.977539fb.chunk.js",
+    "static/css/main.d4918394.chunk.css",
+    "static/js/main.e4a59953.chunk.js"
   ]
 }
