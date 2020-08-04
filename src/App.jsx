@@ -355,9 +355,10 @@ import Search from './Search';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import List2 from "./List2";
-
-
-
+import Collect from './Colllect';
+import Tracker from './Tracker';
+import Tracker2 from './Tracker2';
+import Assign1 from './Assign1';
 
 function App(){
 
@@ -371,6 +372,10 @@ function App(){
                 <Route path='/search' component={Search}/>
                 <Route path='/services' component={Services}/>
                 <Route path='/todo_list' component={List2}/>
+                <Route path='/google_keep_app' component={Collect}/>
+                <Route path='/covid-19_tracker' component={Tracker}/>
+                <Route path='/covid-19_another_tracker' component={Tracker2}/>
+                <Route path='/assignment1' component={Assign1}/>
                 
                 <Redirect to='/' /> 
                 

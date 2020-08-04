@@ -4,7 +4,7 @@ function Cards(props){
     return(
     <>
             <div className='col-md-4 col-10 mx-auto'>
-                <div class="card mt-3">
+                <div class="card mt-3 shadow">
                     <img src={props.img} class="card-img-top" alt="missing img" style={{ width:'auto', height:'200px' }}/>
                     <div class="card-body">
                         <h5 class="card-title font-weight-bold">{props.title}</h5>

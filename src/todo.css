@@ -1,0 +1,162 @@
+.main_div{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(140, 7, 167);
+    /* background-color: rgb(90, 231, 102); */
+    /* background-color: rgb(161, 146, 8); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#todo_list{
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    /* background-color: rgb(161, 146, 8); */
+}
+
+#head_for_todo{
+    color: purple;
+}
+
+#input_list{
+    width: 380px !important;
+    border: none;
+    /* background-color: rgb(161, 146, 8); */
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid purple;
+    text-align: center;
+    font-size: 22px;
+}
+#todo_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#todo_div button{
+    width: 55px;
+    height: 55px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+    background-color: purple;
+    border: none;
+}
+
+#todo_div button:hover{
+color: purple;
+font-weight: bold;
+background-color: white;
+border:2px solid purple;
+}
+
+#delBtn{
+    background-color: transparent;
+    color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: none;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+#delBtn:hover{
+    background-color: white;
+    color: crimson;
+    /* border:1px solid crimson; */
+    
+}
+
+#show{
+    background-color: purple;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    position: relative;
+}
+
+#show h4{
+    text-transform: capitalize;
+}
+
+#show .gone{
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+.activeOne{
+    border-bottom: 2px solid grey;
+}
+
+
+@media only screen and (max-width: 699px){
+    .main_div{
+        height: auto;
+        width: 100%;
+    }
+    
+    #todo_list{
+        width: 300px;
+        height: 600px;
+        /* background-color: rgb(161, 146, 8); */
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #head_for_todo{
+        font-size: 30px;
+        color: purple;
+    }
+    
+    
+    #input_list{
+        width: 250px !important;
+    }
+
+    #todo_div button{
+        width: 40px;
+        height: 40px;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: none;
+        background-color: purple;
+        border: none;
+    }
+
+    #delBtn{
+        height: 20px;
+        width: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: none;
+        margin-right: 10px;
+        margin-top: 2px;
+    }
+    #show{
+        color: white;
+        margin-top: 10px;
+        position: relative;
+    }
+    
+    #show h4{
+        text-transform: capitalize;
+        font-size: 20px;
+    }
+    
+    
+}

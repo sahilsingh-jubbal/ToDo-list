@@ -1,0 +1,52 @@
+#rowone{
+    width: 780px;
+
+}
+#calc{
+    margin-left: 350px !important;
+    border: 1.5px solid black;
+    padding: 0px;
+    margin: 0px;
+
+}
+#calc button{
+    width: 80px;
+    height: 68px;
+    font-size: 38px;
+    border: none;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: black;
+}
+#calc button:hover{
+    color: white;
+}
+#display{
+    width: 100% !important;
+    height: 80px;
+    border: none;
+    border-bottom:1px solid black;
+    font-size: 45px;
+    padding-left: 10px; 
+}
+.answer{
+    height: 50px !important;
+    width: 55px !important;
+    font-size: 25px !important;
+    margin-left: 25px !important;
+    color: white !important;
+    background-color: rgb(255, 105, 5);
+}
+
+.answer:hover{
+    color: white !important;
+    background-color: rgb(255, 105, 5);
+}
+
+.answer2{
+    font-size: 38px !important;
+    color: rgb(255, 105, 5) !important;
+}
+.answer2:hover{
+    background-color: white;
+}

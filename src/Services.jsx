@@ -2,10 +2,11 @@ import React from 'react';
 import Blue_sea from './images/Blue_sea.jpg';
 import Cards from './Cards';
 import sdata from './Sdata';
+import Footer2 from './Footer2';
 function Service(){
     return(
     <>
-
+<body className='' id='body_services' style={{border:'0.5px solid white'}}>
             <div className='container my-5'>
                  <div className='row'>
                            {/* { */}
@@ -20,10 +21,16 @@ function Service(){
                            {/* } */}
 
  
-                           {
+                           {/* {
                                sdata.map((val,index) => {
                                     return <Cards img={val.img} title={val.title}/>
                                })
+                           } */}
+
+                           {
+                                sdata.map((current,index) => {
+                                        return(<Cards img={current.img} title={current.title}/>)
+                                })
                            }
                            </div>
                     </div>
@@ -53,7 +60,8 @@ function Service(){
             </div> */}
         
 
-
+            <Footer2/>
+</body>
     
 
 

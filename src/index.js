@@ -377,13 +377,26 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import ComA from './ComA';
 import {BrowserRouter } from 'react-router-dom';
-
+import Calculator from './Calculator';
+import Whether from './Whether';
+import ToCall from './ToCall';
+import Polo_gt from './Polo_gt';
 
 ReactDOM.render(
 <>
-<BrowserRouter>
+{/* <BrowserRouter>
     <App />
+</BrowserRouter> */}
+{/* <Calculator /> */}
+
+
+<BrowserRouter>
+    <ToCall />
 </BrowserRouter>
+
+{/* <Whether /> */}
+
+
 </>,
 document.getElementById('root') );
 

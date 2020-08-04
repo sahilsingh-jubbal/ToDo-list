@@ -854,26 +854,153 @@ color: crimson;
 
 #btnNew{
   width: 60px;
-  height: 60px;
+  height: 60px; 
   font-size: 30px;
 }
+
+#body_services{
+  background-color: rgb(99, 177, 197);
+}
+
+#add_btn_google{
+  margin-left: 400px;
+  margin-top: -140px;
+}
+
+#add_btn_google:hover{
+  background-color: white;
+  color: orange !important;  
+}
+
+
+#google1{
+  border: none;
+  /* font-weight: bold; */
+  font-size: 20px;
+}
+
+#google2{
+  border: none;
+  /* font-weight: bold; */
+  font-size: 20px;
+}
+
+#subnote{
+  width: 300px !important;
+}
+
+#delete_subnote{
+  margin-left: 230px;
+  margin-top: -100px;
+  font-size: 1px !important;
+  
+}
+
+#delete_subnote:hover{
+  background-color: white;
+  color: crimson !important;  
+}
+
+#img_for_rise{
+  margin-top: -10px !important;
+  margin-right: -600px !important;
+  /* border: 1px solid black; */
+  margin-left: -50px !important;
+  background-color: transparent !important;
+  /* box-shadow: 2px 2px 2px grey !important; */
+}
+
+#container_for_tracker{
+  /* border: 2px solid black; */
+  margin-bottom: 50px;
+  margin-left: 250px;
+  /* color: rgb(250, 10, 170); */
+}
+
+
+#paraone{
+  font-size: 22px;
+}
+
+#card_for_tracker{
+  /* margin-left: -230px !important; */
+  width: 380px !important;
+}
+
+#details_Dish{
+  width: 300px !important;
+  height: auto !important;
+  
+  margin-top: 50px;
+}
+
+#comments{
+  height: auto;
+  margin-left: -180px;
+}
+
+#modal_btn{
+  margin-right: 400px;
+  border: none !important;
+}
+
+#Dish_Menu{
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0,1);
+  
+}
+
+#Dish_Menu:hover{
+  box-shadow: 5px 5px 5px grey;
+  transform: scale(1.05,1.05);
+}
+
 
 @media only screen and (max-width: 699px){
  #home{
     /* border: 2px solid black; */
     margin-top: -150px !important;
-
+    font-size: 28px !important;
+  
   }
   #img1{
     /* border: 2px solid black; */
     margin-top: 30px !important;
   }
 
+  #common1{
+    /* justify-content: center; */
+    text-align: center;
+  }
+
+  #paraone{
+    font-size: 18px;
+  }
   #card_list{
     width: 320px !important;
     margin-left: -10px !important;
 
   }
+
+  #card_for_tracker{
+    margin-left: -230px !important;
+    width: 300px !important;
+  }
+  #img_for_rise{
+    margin-left: -230px !important;
+    width: 300px !important;
+    height: 500px !important;
+    
+  }
+  #comments{
+    margin-left: auto;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  #modal_btn{
+    margin-right: auto;
+    
+  }
+  
 }
 
 

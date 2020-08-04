@@ -81,6 +81,7 @@
 
 
 import React, { useState } from 'react';
+import Footer2 from './Footer2';
 function Contact(){
 
     var [Cname,Uname] = useState({
@@ -160,6 +161,7 @@ function Contact(){
             </form>
         </div>
     </div>
+    <Footer2 />
     </>);
 }
 export default Contact;
