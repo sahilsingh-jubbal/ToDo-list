@@ -28,9 +28,9 @@ function Navbar2() {
                         <NavLink className="nav-link" exact activeClassName='activeOne' to="/units">Unit Converter</NavLink>
                     </li>
 
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <NavLink className="nav-link" exact activeClassName='activeOne' to="/news">Latest News</NavLink>
-                    </li>
+                    </li> */}
 
                 </ul>
 

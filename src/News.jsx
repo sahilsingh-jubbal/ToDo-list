@@ -19,7 +19,7 @@ function News() {
             if (Cname === '') { alert('Enter data to Search') }
             else {
                 setshowSearch(true);
-                fetch(`https://newsapi.org/v2/everything?q=${Cname}&apiKey=3bcfae5582414eeb8d6f4b18d8da3344`)
+                fetch(`http://newsapi.org/v2/everything?q=${Cname}&apiKey=3bcfae5582414eeb8d6f4b18d8da3344`)
                     .then(response => response.json())
                     .then(data => {
                         console.log(data);
@@ -48,7 +48,7 @@ function News() {
     }
 
 
-    fetch(`https://newsapi.org/v2/everything?q=india&apiKey=3bcfae5582414eeb8d6f4b18d8da3344`)
+    fetch(`http://newsapi.org/v2/everything?q=india&apiKey=3bcfae5582414eeb8d6f4b18d8da3344`)
         .then(response => response.json())
         .then(data => {
             var totalArticles = data.articles;
