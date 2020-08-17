@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ToDo-list/static/css/main.138b25d0.chunk.css",
-    "main.js": "/ToDo-list/static/js/main.70bc6793.chunk.js",
-    "main.js.map": "/ToDo-list/static/js/main.70bc6793.chunk.js.map",
+    "main.css": "/ToDo-list/static/css/main.0a15684f.chunk.css",
+    "main.js": "/ToDo-list/static/js/main.32ba79e7.chunk.js",
+    "main.js.map": "/ToDo-list/static/js/main.32ba79e7.chunk.js.map",
     "runtime-main.js": "/ToDo-list/static/js/runtime-main.87e2a030.js",
     "runtime-main.js.map": "/ToDo-list/static/js/runtime-main.87e2a030.js.map",
     "static/css/2.af3c1da9.chunk.css": "/ToDo-list/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.baaa749c.chunk.js": "/ToDo-list/static/js/2.baaa749c.chunk.js",
-    "static/js/2.baaa749c.chunk.js.map": "/ToDo-list/static/js/2.baaa749c.chunk.js.map",
+    "static/js/2.fe395250.chunk.js": "/ToDo-list/static/js/2.fe395250.chunk.js",
+    "static/js/2.fe395250.chunk.js.map": "/ToDo-list/static/js/2.fe395250.chunk.js.map",
     "index.html": "/ToDo-list/index.html",
-    "precache-manifest.1f2961762f1e06d5827da47696bf1d2b.js": "/ToDo-list/precache-manifest.1f2961762f1e06d5827da47696bf1d2b.js",
+    "precache-manifest.d06269e141955004d877ec63e12b9ba6.js": "/ToDo-list/precache-manifest.d06269e141955004d877ec63e12b9ba6.js",
     "service-worker.js": "/ToDo-list/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/ToDo-list/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.138b25d0.chunk.css.map": "/ToDo-list/static/css/main.138b25d0.chunk.css.map",
-    "static/js/2.baaa749c.chunk.js.LICENSE.txt": "/ToDo-list/static/js/2.baaa749c.chunk.js.LICENSE.txt",
+    "static/css/main.0a15684f.chunk.css.map": "/ToDo-list/static/css/main.0a15684f.chunk.css.map",
+    "static/js/2.fe395250.chunk.js.LICENSE.txt": "/ToDo-list/static/js/2.fe395250.chunk.js.LICENSE.txt",
     "static/media/Andra.jpg": "/ToDo-list/static/media/Andra.bb63e983.jpg",
     "static/media/Blue_sea.jpg": "/ToDo-list/static/media/Blue_sea.a5184b2a.jpg",
     "static/media/Dahi1.jpg": "/ToDo-list/static/media/Dahi1.cb88784b.jpg",
@@ -39,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.87e2a030.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.baaa749c.chunk.js",
-    "static/css/main.138b25d0.chunk.css",
-    "static/js/main.70bc6793.chunk.js"
+    "static/js/2.fe395250.chunk.js",
+    "static/css/main.0a15684f.chunk.css",
+    "static/js/main.32ba79e7.chunk.js"
   ]
 }
